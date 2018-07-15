@@ -5,8 +5,8 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.collect.first.upcase do |call|
-    puts "#{call}!"
+  planeteer_calls.collect do |call|
+    puts "#{call.first.upcase}!"
   end
 end
 
