@@ -4,7 +4,7 @@ def roll_call_dwarves(array)
     i = i + 1
     array.each_with_index do |name|
     puts "#{name}"
-  end 
+    end 
   end
 end
 
