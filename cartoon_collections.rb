@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect do |call|
-    return call.first.upcase + "!"
+    return call.toUpperCase() + "!"
   end
 end
 
