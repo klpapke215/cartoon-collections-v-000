@@ -1,10 +1,10 @@
 def roll_call_dwarves(array)
   i = 0
   while i < array.length
-    i = i + 1
-    array.each_with_index do |name|
+    index = i + 1
+    array.each_with_index do |index, name|
     puts "#{name}"
-    end 
+    end
   end
 end
 
